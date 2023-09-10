@@ -21,7 +21,7 @@ from sklearn import metrics
 # In[148]:
 
 
-df = pd.read_csv('C:/Users/Mauro/Desktop/Coursera_ML_Product_Manager/CCPP_data.csv')
+df = pd.read_csv('C:/Users/CCPP_data.csv')
 df.rename(columns={"AT":"Temperatur"}, inplace=True)
 df.rename(columns={"V":"Exhaust Vacuum"}, inplace=True)
 df.rename(columns={"AP":"Ambient Pressure"}, inplace=True)
